@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width= , initial-scale=1.0")
+        title #{nombreSitio} #{pagina}
+        link(href='https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap' rel='stylesheet')
+        link(rel="stylesheet", href="/css/bootstrap.css")
+        link(rel="stylesheet", href="/css/style.css")
+    body(class=clase)
+        include header
+        block slider 
+        block contenido
+        include footer 

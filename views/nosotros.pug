@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row 
+            .col-md-5 
+                img(src="/img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote “En nuestra agencia creemos que viajar es más que trasladarse de un lugar a otro, es descubrir culturas, vivir experiencias únicas y crear recuerdos inolvidables. Por eso nos especializamos en organizar viajes al extranjero que combinan comodidad, seguridad y aventura.”
+
+                p “Nuestro equipo está formado por apasionados del turismo internacional, listos para asesorarte y acompañarte en cada paso del camino. Desde la elección del destino hasta tu regreso a casa, trabajamos para que tu única preocupación sea disfrutar.”
+
+                p “Nos diferencia la atención personalizada y la calidad de nuestros servicios. Adaptamos cada viaje a tus intereses, presupuesto y estilo, porque sabemos que cada viajero es único. Nuestro compromiso es abrirte las puertas del mundo con experiencias auténticas y memorables.”
+
+        .listado-iconos
+            .container.mt-5.py-5.text-center 
+                .row 
+                    .col-md-4
+                        img(src="/img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                        h2.mb-4 Seguridad
+                        p Tus viajes son nuestra prioridad. Por eso te ofrecemos asesoría personalizada y las mejores opciones en seguros de viaje para que disfrutes con total tranquilidad.
+                    
+                    .col-md-4
+                        img(src="/img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                        h2.mb-4 Mejores Destinos
+                        p Te llevamos a los destinos más increíbles del mundo. Descubre lugares únicos, culturas fascinantes y experiencias inolvidables con nuestros paquetes exclusivos.
+
+                    .col-md-4
+                        img(src="/img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                        h2.mb-4 Los mejores Precios
+                        p Ofrecemos las mejores ofertas y precios competitivos para que puedas viajar más por menos. Aprovecha nuestras promociones y descuentos especiales en paquetes de viaje.
