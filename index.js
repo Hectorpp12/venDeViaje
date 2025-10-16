@@ -2,8 +2,6 @@ import express from 'express';
 import router from './routes/index.js';
 import db from './config/db.js';
 
-
-
 const app = express();
 
 // Conectar la base de datos
@@ -12,7 +10,7 @@ db.authenticate()
     .catch(error => console.log(error));
 
 // Definir puerto
-const port = process.env.PORT || 3000;
+const port = process.env.PORT ||4000;
 
 //Habilitar pug
 app.set('view engine', 'pug');
